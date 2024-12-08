@@ -863,3 +863,4 @@ C:\Users\KIIT\OneDrive - kiit.ac.in\Desktop\Final Project\AuthECAPI\AuthECAPI\ob
 C:\Users\KIIT\OneDrive - kiit.ac.in\Desktop\Final Project\AuthECAPI\AuthECAPI\obj\Debug\net8.0\AuthECAPI.pdb
 C:\Users\KIIT\OneDrive - kiit.ac.in\Desktop\Final Project\AuthECAPI\AuthECAPI\obj\Debug\net8.0\AuthECAPI.genruntimeconfig.cache
 C:\Users\KIIT\OneDrive - kiit.ac.in\Desktop\Final Project\AuthECAPI\AuthECAPI\obj\Debug\net8.0\ref\AuthECAPI.dll
+C:\Users\KIIT\OneDrive - kiit.ac.in\Desktop\Final Project\AuthECAPI\AuthECAPI\obj\Debug\net8.0\AuthECAPI.sourcelink.json
