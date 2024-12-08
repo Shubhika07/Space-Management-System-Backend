@@ -22,7 +22,21 @@ builder.Services.AddSwaggerExplorer()
                 .ConfigureIdentityOptions()
                 .AddIdentityAuth(builder.Configuration);
 
+// Add CORS policy
+builder.Services.AddCors(options =>
+{
+    options.AddPolicy("AllowSpecificOrigin", policy =>
+    {
+        policy.WithOrigins("https://space-research-management-system.vercel.app")
+              .AllowAnyHeader()
+              .AllowAnyMethod();
+    });
+});
+
 var app = builder.Build();
+
+// Use CORS middleware
+app.UseCors("AllowSpecificOrigin");
 
 // Ensure the database is created and log a message
 using (var scope = app.Services.CreateScope())
